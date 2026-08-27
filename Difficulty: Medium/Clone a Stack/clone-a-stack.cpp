@@ -1,7 +1,7 @@
 class Solution {
   public:
     void solve(stack<int>& st, stack<int>& ans){
-        if(st.size()==0){
+        if(st.size()==0){ // recursion 
             return;
         }
         int x=st.top();
